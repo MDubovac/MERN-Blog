@@ -1,0 +1,14 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 60px;
+}
+
+.top i{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 1.2em;
+}

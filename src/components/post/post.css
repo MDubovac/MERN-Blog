@@ -1,0 +1,38 @@
+.post{
+    text-align: start;
+    width: 400px;
+    margin: 15px 20px;
+}
+
+/* Post Img */
+.post img{
+    height: 280px;
+    border-radius: 6px;
+}
+
+/* Post Categories */
+.postCat{
+    margin-bottom: 5px;
+}
+.postCat p{
+    display: inline;
+    margin: 4px 0;
+    margin-right: 8px;
+    color: gray; 
+}
+
+/* Post Time */
+.postTime{
+    color: gray;
+    margin: 5px 0;
+}
+
+/* Post Excrept */
+.postExcrept{
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-ordinal-group: vertical;
+}

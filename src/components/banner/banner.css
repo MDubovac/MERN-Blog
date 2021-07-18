@@ -1,0 +1,26 @@
+.banner{
+    height: 70vh;
+    background-image: url("../../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 50px;
+    background-attachment: fixed;
+}
+
+.bannerText{
+    background-color: #fff;
+    color: #000;
+    max-width: 500px;
+    padding: 20px 40px;
+    box-shadow: 2px 6px 12px 4px rgba(0, 0, 0, 0.2);
+}
+.bannerText p{
+    color: gray;
+    margin: 10px 0;
+}
+.bannerText i{
+    color: red;
+}
+.bannerText a{
+    color: gray;
+}

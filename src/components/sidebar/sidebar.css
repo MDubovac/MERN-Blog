@@ -1,0 +1,49 @@
+.sidebar{
+    flex: 3;
+    margin: 10px 20px;
+}
+.sidebar h2{
+    text-align: center;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 0;
+    margin: 10px 0;
+    color: gray;
+    font-size: 1.4em;
+}
+
+/* About Me */
+.sidebar .aboutMe img{
+    width: 100%;
+    height: 300px;
+    padding: 0 10px;
+}
+.sidebar .aboutMe p{
+    padding: 0 10px;
+}
+
+/* Categories */
+.sidebar .categories ul{
+    list-style: none;
+    text-align: center;
+}
+.sidebar .categories ul li{
+    font-size: 1.2em;
+    display: inline-block;
+    width: 50%;
+    color: gray;
+}
+.sidebar .categories ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* Follow Us */
+.followUs .smedia{
+    text-align: center;
+}
+.followUs .smedia i{
+    color: black;
+    font-size: 1.2em;
+    margin: 0 8px; 
+}
